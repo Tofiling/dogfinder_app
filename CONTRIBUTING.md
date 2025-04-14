@@ -1,6 +1,8 @@
-Guía de Contribución - DogFinder 🐶
+## Guía de Contribución - DogFinder 🐶
+
 ¡Gracias por tu interés en colaborar con este proyecto! Este documento describe las pautas y buenas prácticas para contribuir de manera ordenada y segura al desarrollo de la aplicación DogFinder.
-🧭 Flujo de trabajo
+
+## 🧭 Flujo de trabajo
 
 1. Crea una rama desde `main` para cada nueva funcionalidad o corrección de errores:
    git checkout -b feature/nombre-funcionalidad
