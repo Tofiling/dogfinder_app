@@ -1,4 +1,3 @@
-// build.gradle.kts (raíz del proyecto)
 
 buildscript {
     repositories {
@@ -6,9 +5,17 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        // Añade esta línea para Firebase
         classpath("com.google.gms:google-services:4.4.0")
     }
+}
+
+val newBuildDir: Directory = rootProject.layout.buildDirectory.dir("../../build").get()
+rootProject.layout.buildDirectory.value(newBuildDir)
+
+subprojects {
+    val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
+    project.layout.buildDirectory.value(newSubprojectBuildDir)
+    project.evaluationDependsOn(":app")
 }
 
 allprojects {
@@ -19,5 +26,5 @@ allprojects {
 }
 
 tasks.register<Delete>("clean") {
-    delete(rootProject.layout.buildDirectory)
+    delete(rootProject.buildDir)
 }
