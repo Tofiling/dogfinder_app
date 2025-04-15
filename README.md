@@ -1,8 +1,8 @@
-## DogFinder - App de Rescate Animal Callejero 🐶
+DogFinder - App de Rescate Animal Callejero 🐶
 
 DogFinder es una aplicación móvil y web desarrollada en Flutter, que permite reportar y ubicar animales en situación de calle. El objetivo es conectar rescatistas, fundaciones y ciudadanos para brindar ayuda rápida y coordinada a los animales que más lo necesitan.
 
-## 📱 Características principales
+📱 Características principales
 - Inicio de sesión con Firebase (correo y contraseña)
 - Reporte de animales con fotografía, descripción y ubicación
 - Visualización de reportes en mapa (en desarrollo)
@@ -10,14 +10,14 @@ DogFinder es una aplicación móvil y web desarrollada en Flutter, que permite r
 - Sincronización en tiempo real con Firebase Firestore
 - Compilación automática con GitHub Actions
 
-## 🚀 Tecnologías utilizadas
+🚀 Tecnologías utilizadas
 Tecnología	Rol
 Flutter	Desarrollo multiplataforma
 Firebase	Backend (Auth, Firestore, Storage)
 GitHub Actions	CI/CD automatizado
 Android Studio / VS Code	IDEs recomendados
 
-## 🛠️ Instalación y ejecución
+🛠️ Instalación y ejecución
 Requisitos:
 - Flutter SDK
 - Android Studio
@@ -40,11 +40,11 @@ Pasos para desarrollo:
 4. Asegúrate de tener `google-services.json` ubicado en:
    android/app/google-services.json
 
-## 👥 Contribuciones
+👥 Contribuciones
 ¿Quieres colaborar? Revisa nuestra guía de contribución (`CONTRIBUTING.md`) antes de enviar un PR.
 
-## 🔐 CI/CD y Seguridad
+🔐 CI/CD y Seguridad
 Este proyecto usa GitHub Actions para automatizar la compilación de APKs y restaurar secretos de forma segura. La rama `main` está protegida.
 
-## 📄 Licencia
+📄 Licencia
 Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente, dando el debido crédito.
